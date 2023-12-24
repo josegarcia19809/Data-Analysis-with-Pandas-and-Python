@@ -5,7 +5,7 @@ def imprimir_linea():
     print("-" * 100)
 
 
-df_trabajadores = pd.read_csv("datax/trabajadores_edades.csv")
+df_trabajadores = pd.read_csv("../datax/trabajadores_edades.csv")
 print(df_trabajadores)
 imprimir_linea()
 

@@ -5,7 +5,7 @@ def imprimir_linea():
     print("-" * 100)
 
 
-df_imdb = pd.read_csv("datax/imdb.csv")
+df_imdb = pd.read_csv("../datax/imdb.csv")
 print(df_imdb)
 imprimir_linea()
 print(df_imdb.head())

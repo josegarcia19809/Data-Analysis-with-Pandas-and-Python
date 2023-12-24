@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 city_data = {
     "City": ["New York City", "Paris", "Barcelona", "Rome"],

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 # Gráfica puntos unidos por una línea continua
-serie_asistencias = pd.read_csv("datax/asistencias2.csv", index_col="Clase").squeeze()
+serie_asistencias = pd.read_csv("../datax/asistencias2.csv", index_col="Clase").squeeze()
 print(serie_asistencias)
 
 x_values = serie_asistencias.index

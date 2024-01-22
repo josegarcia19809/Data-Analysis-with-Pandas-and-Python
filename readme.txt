@@ -1,0 +1,1 @@
+Historically, Java application developers have had a few options for project build tools. Some have fallen out of favor over time—for good reason—and now we’ve coalesced as a community around two: Maven and Gradle. Spring Boot supports both with equal aplomb.
